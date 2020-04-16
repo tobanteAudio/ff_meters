@@ -102,9 +102,9 @@ private:
         float getAvgRMS () const
         {
             if (rmsHistory.size() > 0)
-                return std::sqrtf (std::accumulate (rmsHistory.begin(), rmsHistory.end(), 0.0f) / rmsHistory.size());
+                return sqrtf (std::accumulate (rmsHistory.begin(), rmsHistory.end(), 0.0f) / rmsHistory.size());
 
-            return float (std::sqrt (rmsSum));
+            return float (sqrt (rmsSum));
         }
 
         void setLevels (const juce::int64 time, const float newMax, const float newRms, const juce::int64 newHoldMSecs)

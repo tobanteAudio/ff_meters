@@ -62,7 +62,7 @@
              This setting was default behaviour, that's why it is on by default, but will trigger a warning.
  */
 #ifndef FF_AUDIO_ALLOW_ALLOCATIONS_IN_MEASURE_BLOCK
-#define FF_AUDIO_ALLOW_ALLOCATIONS_IN_MEASURE_BLOCK 1
+#define FF_AUDIO_ALLOW_ALLOCATIONS_IN_MEASURE_BLOCK 0
 #endif
 
 #include <juce_audio_basics/juce_audio_basics.h>
